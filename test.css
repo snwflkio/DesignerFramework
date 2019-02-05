@@ -1,0 +1,48 @@
+.main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.section {
+	display: flex;
+	flex-direction: row wrap;
+	width: 49%;
+	horizontal-align: center;
+}
+
+.section-column {
+	display: flex;
+	flex-direction: column;
+	width: 49%;
+	horizontal-align: center;
+}
+
+.line {
+	height: 100%;
+	width: 2%;
+	border-left: thick solid black;
+}
+
+.block {
+	width: 5vh;
+	height: 5vh;
+}
+
+div.block + div.block {
+	margin: 0 0 0 5;
+}
+
+
+.draggable {
+	border: thin solid black;
+}
+
+.location {
+	width: 30%;
+	height: 10%;
+	margin: 0 0 0 5;
+	align-content: center;
+	vertical-align: middle;
+	text-align: center;
+}
